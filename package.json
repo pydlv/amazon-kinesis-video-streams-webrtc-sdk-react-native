@@ -1,10 +1,10 @@
 {
     "name": "amazon-kinesis-video-streams-webrtc-react-native",
     "version": "1.0.2",
-    "description": "Amazon Kinesis Video Streams WebRTC SDK for JavaScript.",
+    "description": "Amazon Kinesis Video Streams WebRTC SDK for React Native.",
     "repository": {
         "type": "git",
-        "url": "https://github.com/awslabs/amazon-kinesis-video-streams-webrtc-sdk-js.git"
+        "url": "https://github.com/pydlv/amazon-kinesis-video-streams-webrtc-sdk-react-native.git"
     },
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
