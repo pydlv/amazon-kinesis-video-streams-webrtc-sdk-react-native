@@ -17,7 +17,7 @@ module.exports = merge.smart(require('./webpack.config'), {
     // Make sure the asset is not accidentally growing in size
     // Make sure that size impact of adding new code is known
     performance: {
-        hints: 'error',
+        hints: 'warning',
         maxAssetSize: MAX_ASSET_SIZE_BYTES,
         maxEntrypointSize: MAX_ASSET_SIZE_BYTES,
     },
