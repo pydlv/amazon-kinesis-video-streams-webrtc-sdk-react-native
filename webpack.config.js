@@ -52,10 +52,6 @@ module.exports = {
                     text += '\n';
                     text += `This product bundles ${module.name}, which is available under the ${module.licenseId} license:\n`;
                     text += '\n';
-                    text += module.licenseText
-                        .split('\n')
-                        .map(line => `  ${line}\n`)
-                        .join('');
                 });
                 return text;
             },

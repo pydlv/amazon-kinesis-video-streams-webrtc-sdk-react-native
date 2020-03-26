@@ -1,5 +1,5 @@
 import { Credentials, QueryParams, RequestSigner } from '../SignalingClient';
-import crypto from 'isomorphic-webcrypto';
+import crypto from '@trust/webcrypto';
 type Headers = { [header: string]: string };
 
 /**
